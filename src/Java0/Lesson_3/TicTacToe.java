@@ -10,7 +10,7 @@ public class TicTacToe {
     */
     private static char[][] map; //матрица игры
     private static final int SIZE = 3;
-    private static final char DOT_EMPTY = '●';
+    private static final char DOT_EMPTY = '\u2014';
     private static final char DOT_X = 'X';
     private static final char DOT_O = 'O';
     private static Random random = new Random();
