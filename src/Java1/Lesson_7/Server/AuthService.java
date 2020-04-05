@@ -12,7 +12,7 @@ public class AuthService {
             // обращение к драйверу
             Class.forName("org.sqlite.JDBC");
             // установка подключения
-            connection = DriverManager.getConnection("jdbc:sqlite:DBUsers.db");
+            connection = DriverManager.getConnection("jdbc:sqlite:mainDB.db");
             // создание Statement для возможности оправки запросов
             stmt = connection.createStatement();
         } catch (ClassNotFoundException e) {

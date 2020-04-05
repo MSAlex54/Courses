@@ -5,3 +5,4 @@ GeekBrains.iml
 /src/Repeat/
 /src/Java1/LessonMaterials/
 /src/Java3/LessonMaterials/
+*.db
